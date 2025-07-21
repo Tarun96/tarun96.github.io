@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Tarun Scientist | Space-Tech Portfolio</title>
+    <link href="https://cdn.jsdelivr.net/npm/tailwindcss@2.2.19/dist/tailwind.min.css" rel="stylesheet">
+    <script src="https://cdn.jsdelivr.net/npm/typed.js@2.0.12"></script>
+  </head>
+  <body class="bg-gradient-to-br from-black to-gray-900 text-white font-sans">
+    <header class="p-6 flex justify-between items-center border-b border-gray-700">
+      <h1 class="text-3xl font-bold text-purple-400">Tarun Scientist</h1>
+      <nav class="space-x-6 text-gray-300">
+        <a href="#about" class="hover:text-purple-400">About</a>
+        <a href="#projects" class="hover:text-purple-400">Projects</a>
+        <a href="#blogs" class="hover:text-purple-400">Blogs</a>
+        <a href="#contact" class="hover:text-purple-400">Contact</a>
+      </nav>
+    </header>
+
+    <section class="text-center py-20 px-4">
+      <h2 class="text-4xl md:text-6xl font-extrabold mb-6">
+        <span id="typed"></span>
+      </h2>
+      <p class="text-lg md:text-xl text-gray-400 max-w-2xl mx-auto">
+        I’m a Senior Software Engineer with a vision to become a future Engineering Leader, exploring the intersection of technology, innovation, and space.
+      </p>
+    </section>
+
+    <section id="about" class="py-16 px-6 md:px-20 bg-gray-800">
+      <h3 class="text-3xl font-bold mb-6 text-purple-300">About Me</h3>
+      <p class="text-gray-300 leading-relaxed">
+        With a strong background in scalable systems and a passion for futuristic design, I craft high-performance software solutions. My mission is to build and lead teams that solve real-world problems using cutting-edge tech.
+      </p>
+    </section>
+
+    <section id="projects" class="py-16 px-6 md:px-20">
+      <h3 class="text-3xl font-bold mb-8 text-purple-300">Projects</h3>
+      <div class="grid md:grid-cols-2 gap-8">
+        <div class="bg-gray-800 p-6 rounded-xl shadow-lg hover:shadow-purple-500 transition">
+          <h4 class="text-xl font-semibold mb-2 text-purple-200">NeuralPath</h4>
+          <p class="text-gray-400">AI-driven recommendation engine for learning paths in tech careers.</p>
+        </div>
+        <div class="bg-gray-800 p-6 rounded-xl shadow-lg hover:shadow-purple-500 transition">
+          <h4 class="text-xl font-semibold mb-2 text-purple-200">StellarDash</h4>
+          <p class="text-gray-400">A real-time dashboard to monitor satellite telemetry and system health.</p>
+        </div>
+      </div>
+    </section>
+
+    <section id="blogs" class="py-16 px-6 md:px-20 bg-gray-800">
+      <h3 class="text-3xl font-bold mb-8 text-purple-300">Blogs</h3>
+      <ul class="space-y-4 text-gray-300 list-disc list-inside">
+        <li><a href="#" class="text-purple-400 hover:underline">Leading with Empathy in Engineering Teams</a></li>
+        <li><a href="#" class="text-purple-400 hover:underline">The Future of Software Engineering in Space Tech</a></li>
+        <li><a href="#" class="text-purple-400 hover:underline">10x Productivity with AI-powered Tools</a></li>
+      </ul>
+    </section>
+
+    <section id="contact" class="py-16 px-6 md:px-20">
+      <h3 class="text-3xl font-bold mb-8 text-purple-300">Contact</h3>
+      <div class="flex flex-col gap-4 text-gray-300">
+        <p>Connect with me on <a href="https://linkedin.com/in/yourprofile" target="_blank" class="text-purple-400 hover:underline">LinkedIn</a>.</p>
+        <p>Email: <a href="mailto:tarun@spaceengineer.dev" class="text-purple-400 hover:underline">tarun@spaceengineer.dev</a></p>
+        <p>GitHub: <a href="https://github.com/yourusername" class="text-purple-400 hover:underline">@yourusername</a></p>
+      </div>
+    </section>
+
+    <footer class="text-center py-6 border-t border-gray-700 text-gray-500 text-sm">
+      &copy; 2025 Tarun Scientist. All rights reserved.
+    </footer>
+
+    <script>
+      const typed = new Typed("#typed", {
+        strings: [
+          "Software Engineer. Futurist.",
+          "Engineering Leader in the Making.",
+          "Building the Future, One Bit at a Time."
+        ],
+        typeSpeed: 50,
+        backSpeed: 30,
+        loop: true
+      });
+    </script>
+  </body>
+</html>
